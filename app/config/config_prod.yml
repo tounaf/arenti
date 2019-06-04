@@ -1,7 +1,16 @@
 imports:
     - { resource: config.yml }
 
-#doctrine:
+doctrine:
+    dbal:
+        url: "%database_url%"
+        driver: pdo_pgsql
+        host: '%database_host_heroku%'
+        port: '%database_port_heroku%'
+        dbname: '%database_name_heroku%'
+        user: '%database_user_heroku%'
+        password: '%database_password_heroku%'
+        charset: UTF8
 #    orm:
 #        metadata_cache_driver: apc
 #        result_cache_driver: apc
@@ -11,7 +20,8 @@ monolog:
     handlers:
         main:
             type: fingers_crossed
-            action_level: error
+#            action_level: error
+            action_level: %monolog_action_level%
             handler: nested
         nested:
             type: stream
