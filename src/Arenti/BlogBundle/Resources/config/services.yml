@@ -1,0 +1,4 @@
+services:
+#    arenti_blog.example:
+#        class: Arenti\BlogBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

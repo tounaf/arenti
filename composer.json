@@ -4,7 +4,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle"
+            "AppBundle\\": "src/AppBundle",
+            "Arenti\\BlogBundle\\": "src/Arenti/BlogBundle"
         },
         "classmap": [
             "app/AppKernel.php",
@@ -74,5 +75,8 @@
             }
         },
         "branch-alias": null
-    }
+    },
+    "compile": [
+        "bin/console doctrine:schema:update --force"
+    ]
 }

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c792f54e-bcfd-4f4b-84c3-c713c0589d74" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="516">
+              <caret line="79" column="52" lean-forward="false" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -29,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -45,7 +48,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_prod.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Arenti/BlogBundle/Entity/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_prod.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -59,8 +72,48 @@
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="47" column="21" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
-              <folding />
+              <caret line="48" column="21" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+              <folding>
+                <marker date="1559643881851" expanded="true" signature="0:109" ph="imports: &lt;3 items&gt;" />
+                <marker date="1559643881851" expanded="true" signature="373:399" ph="parameters: &lt;1 key&gt;" />
+                <marker date="1559643881851" expanded="true" signature="397:399" ph="en" />
+                <marker date="1559643881851" expanded="true" signature="401:1101" ph="framework: &lt;12 keys&gt;" />
+                <marker date="1559643881851" expanded="true" signature="481:491" ph="%secret%" />
+                <marker date="1559643881851" expanded="true" signature="496:598" ph="router: &lt;2 keys&gt;" />
+                <marker date="1559643881851" expanded="true" signature="522:567" ph="%kernel.p…outing.yml" />
+                <marker date="1559643881851" expanded="true" signature="638:678" ph="validation: {1 key}" />
+                <marker date="1559643881851" expanded="true" signature="672:676" ph="true" />
+                <marker date="1559643881851" expanded="true" signature="745:755" ph="%locale%" />
+                <marker date="1559643881851" expanded="true" signature="781:1005" ph="session: &lt;2 keys&gt;" />
+                <marker date="1559643881851" expanded="true" signature="902:929" ph="session.h…ative_file" />
+                <marker date="1559643881851" expanded="true" signature="949:1005" ph="%kernel.p…vironment%" />
+                <marker date="1559643881851" expanded="true" signature="1049:1053" ph="true" />
+                <marker date="1559643881851" expanded="true" signature="1072:1101" ph="php_errors: &lt;1 key&gt;" />
+                <marker date="1559643881851" expanded="true" signature="1097:1101" ph="true" />
+                <marker date="1559643881851" expanded="true" signature="1124:1196" ph="twig: &lt;2 keys&gt;" />
+                <marker date="1559643881851" expanded="true" signature="1141:1157" ph="%kernel.debug%" />
+                <marker date="1559643881851" expanded="true" signature="1180:1196" ph="%kernel.debug%" />
+                <marker date="1559643881851" expanded="true" signature="1223:1926" ph="doctrine: &lt;2 keys&gt;" />
+                <marker date="1559643881851" expanded="true" signature="1237:1460" ph="dbal: &lt;7 keys&gt;" />
+                <marker date="1559643881851" expanded="true" signature="1259:1268" ph="pdo_mysql" />
+                <marker date="1559643881851" expanded="true" signature="1283:1300" ph="%database_host%" />
+                <marker date="1559643881851" expanded="true" signature="1315:1332" ph="%database_port%" />
+                <marker date="1559643881851" expanded="true" signature="1349:1366" ph="%database_name%" />
+                <marker date="1559643881851" expanded="true" signature="1381:1398" ph="%database_user%" />
+                <marker date="1559643881851" expanded="true" signature="1417:1438" ph="%database_password%" />
+                <marker date="1559643881851" expanded="true" signature="1456:1460" ph="UTF8" />
+                <marker date="1559643881851" expanded="true" signature="1776:1926" ph="orm: &lt;3 keys&gt;" />
+                <marker date="1559643881851" expanded="true" signature="1818:1834" ph="%kernel.debug%" />
+                <marker date="1559643881851" expanded="true" signature="1860:1899" ph="doctrine.…underscore" />
+                <marker date="1559643881851" expanded="true" signature="1922:1926" ph="true" />
+                <marker date="1559643881851" expanded="true" signature="1956:2122" ph="swiftmailer: &lt;5 keys&gt;" />
+                <marker date="1559643881851" expanded="true" signature="1984:2004" ph="%mailer_transport%" />
+                <marker date="1559643881851" expanded="true" signature="2015:2030" ph="%mailer_host%" />
+                <marker date="1559643881851" expanded="true" signature="2045:2060" ph="%mailer_user%" />
+                <marker date="1559643881851" expanded="true" signature="2075:2094" ph="%mailer_password%" />
+                <marker date="1559643881851" expanded="true" signature="2099:2122" ph="spool: {1 key}" />
+                <marker date="1559643881851" expanded="true" signature="2114:2120" ph="memory" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,9 +127,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
         <option value="$PROJECT_DIR$/app/config/config_prod.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -119,6 +172,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="arenti" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arenti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arenti" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arenti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arenti" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arenti" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arenti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arenti" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arenti" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,12 +302,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559636056351</updated>
       <workItem from="1559636059333" duration="361000" />
-      <workItem from="1559637295631" duration="1847000" />
+      <workItem from="1559637295631" duration="3177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2208000" />
+    <option name="totallyTimeSpent" value="3538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -245,34 +360,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="47" column="21" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
-          <folding />
+          <caret line="48" column="21" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <marker date="1559643881851" expanded="true" signature="0:109" ph="imports: &lt;3 items&gt;" />
+            <marker date="1559643881851" expanded="true" signature="373:399" ph="parameters: &lt;1 key&gt;" />
+            <marker date="1559643881851" expanded="true" signature="397:399" ph="en" />
+            <marker date="1559643881851" expanded="true" signature="401:1101" ph="framework: &lt;12 keys&gt;" />
+            <marker date="1559643881851" expanded="true" signature="481:491" ph="%secret%" />
+            <marker date="1559643881851" expanded="true" signature="496:598" ph="router: &lt;2 keys&gt;" />
+            <marker date="1559643881851" expanded="true" signature="522:567" ph="%kernel.p…outing.yml" />
+            <marker date="1559643881851" expanded="true" signature="638:678" ph="validation: {1 key}" />
+            <marker date="1559643881851" expanded="true" signature="672:676" ph="true" />
+            <marker date="1559643881851" expanded="true" signature="745:755" ph="%locale%" />
+            <marker date="1559643881851" expanded="true" signature="781:1005" ph="session: &lt;2 keys&gt;" />
+            <marker date="1559643881851" expanded="true" signature="902:929" ph="session.h…ative_file" />
+            <marker date="1559643881851" expanded="true" signature="949:1005" ph="%kernel.p…vironment%" />
+            <marker date="1559643881851" expanded="true" signature="1049:1053" ph="true" />
+            <marker date="1559643881851" expanded="true" signature="1072:1101" ph="php_errors: &lt;1 key&gt;" />
+            <marker date="1559643881851" expanded="true" signature="1097:1101" ph="true" />
+            <marker date="1559643881851" expanded="true" signature="1124:1196" ph="twig: &lt;2 keys&gt;" />
+            <marker date="1559643881851" expanded="true" signature="1141:1157" ph="%kernel.debug%" />
+            <marker date="1559643881851" expanded="true" signature="1180:1196" ph="%kernel.debug%" />
+            <marker date="1559643881851" expanded="true" signature="1223:1926" ph="doctrine: &lt;2 keys&gt;" />
+            <marker date="1559643881851" expanded="true" signature="1237:1460" ph="dbal: &lt;7 keys&gt;" />
+            <marker date="1559643881851" expanded="true" signature="1259:1268" ph="pdo_mysql" />
+            <marker date="1559643881851" expanded="true" signature="1283:1300" ph="%database_host%" />
+            <marker date="1559643881851" expanded="true" signature="1315:1332" ph="%database_port%" />
+            <marker date="1559643881851" expanded="true" signature="1349:1366" ph="%database_name%" />
+            <marker date="1559643881851" expanded="true" signature="1381:1398" ph="%database_user%" />
+            <marker date="1559643881851" expanded="true" signature="1417:1438" ph="%database_password%" />
+            <marker date="1559643881851" expanded="true" signature="1456:1460" ph="UTF8" />
+            <marker date="1559643881851" expanded="true" signature="1776:1926" ph="orm: &lt;3 keys&gt;" />
+            <marker date="1559643881851" expanded="true" signature="1818:1834" ph="%kernel.debug%" />
+            <marker date="1559643881851" expanded="true" signature="1860:1899" ph="doctrine.…underscore" />
+            <marker date="1559643881851" expanded="true" signature="1922:1926" ph="true" />
+            <marker date="1559643881851" expanded="true" signature="1956:2122" ph="swiftmailer: &lt;5 keys&gt;" />
+            <marker date="1559643881851" expanded="true" signature="1984:2004" ph="%mailer_transport%" />
+            <marker date="1559643881851" expanded="true" signature="2015:2030" ph="%mailer_host%" />
+            <marker date="1559643881851" expanded="true" signature="2045:2060" ph="%mailer_user%" />
+            <marker date="1559643881851" expanded="true" signature="2075:2094" ph="%mailer_password%" />
+            <marker date="1559643881851" expanded="true" signature="2099:2122" ph="spool: {1 key}" />
+            <marker date="1559643881851" expanded="true" signature="2114:2120" ph="memory" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -281,6 +420,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arenti/BlogBundle/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="79" column="52" lean-forward="false" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
           <folding />
         </state>
       </provider>
