@@ -57,6 +57,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache"
         ],
         "compile": [
+            "bin/console doctrine:schema:update --force --dump-sql",
             "bin/console doctrine:schema:update --force"
         ]
     },
