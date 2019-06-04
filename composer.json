@@ -55,6 +55,9 @@
         "warmup": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache"
+        ],
+        "compile": [
+            "bin/console doctrine:schema:update --force"
         ]
     },
     "config": {
@@ -75,8 +78,5 @@
             }
         },
         "branch-alias": null
-    },
-    "compile": [
-        "bin/console doctrine:schema:update --force"
-    ]
+    }
 }
